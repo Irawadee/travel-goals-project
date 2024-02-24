@@ -51,3 +51,47 @@ header a:hover {
 #page-logo a:hover {
   background-color: #1c00ff00;
 }
+
+.destination {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.destination img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.destination p {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgb(124, 123, 123);
+  margin: 20px 0;
+}
+.destination strong {
+  color: rgb(0, 160, 117);
+}
+
+#destinations {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+#highlight h2 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(59, 65, 64);
+  margin: 24px 0;
+}
+#highlight {
+  padding: 24px;
+  background: linear-gradient(0deg,rgb(227,255,253),rgb(202,243,240));
+}
